@@ -11,3 +11,31 @@
 
 # TODO 3: Call your main function with the specific condition presented in README.md
 
+
+
+
+def sum (a,b):
+    """
+    # - @function: Takes two numbers and adds them together
+    # - @param: Two integer numbers
+    # - @return: The sum of both numbers
+    """
+    sum = a + b
+    return sum
+
+def main():
+    """
+    # - @function: Takes two integer numbers form the user, then calls the sum function.
+    # - @param: none
+    # - @return: none
+    """
+    num1 = input("enter a number: ")
+    num1 = int(num1)
+    num2 = input("enter another number: ")
+    num2 = int(num2)
+
+    valuesSum = sum(num1,num2)
+    print(f"The sum of the two numbers is: {valuesSum}")
+
+if __name__ == "__main__":
+  main()
