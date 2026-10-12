@@ -24,8 +24,8 @@
 def is_even (anyList):
     """
     # - @function: Checks a list of numbers for atleast one even number.
-    # - @param: anyList - an int list
-    # - @results: returns true if an even number is present, otherwise it returns false
+    # - @param: A list of integers.
+    # - @return: returns a bool value stored in resuts, true if an even number is present, otherwise it returns false.
     """
     for element in anyList:
         if element % 2 == 0:
@@ -34,7 +34,7 @@ def is_even (anyList):
             break
         else:
             results = False
-    return results
+    return results # there is a need here because we r returning the value of "results"
 
 results = is_even([1,2,3,4,5,6])
 print(results)
