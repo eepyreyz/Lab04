@@ -52,7 +52,6 @@ def main():
     print(f"The results of your calculation is: {results}")
 
 if __name__ == "__main__":
-
     main()
     print("\n\nAdditional Tests:")
     print(compute(operation='*', num2=45, num1=13))
