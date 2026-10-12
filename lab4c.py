@@ -1,7 +1,7 @@
 # Add comments before you do anything else.
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Rey abbas
+# Date: 2026/10/12
 # Purpose: use the main Function as entry point.
 # Usage: ./lab4c.py
 
