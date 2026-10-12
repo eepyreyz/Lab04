@@ -46,9 +46,9 @@ def compute (num1, num2, operation = "+"):
 
 def main():
     """
-    # - @function: Takes two integer numbers form the user, then calls the sum function.
-    # - @param: none
-    # - @return: none
+    @function: Gets two integers and an operation from the user, calls compute, and prints the result.
+    @param: None
+    @return: None
     """
     num1 = input("enter a number: ")
     num1 = int(num1)
@@ -61,11 +61,7 @@ def main():
     print(f"The results of your calculation is: {results}")
 
 if __name__ == "__main__":
-    """
-    @function: Gets two integers and an operation from the user, calls compute, and prints the result.
-    @param: None
-    @return: None
-    """
+
     main()
     print("\n\nAdditional Tests:")
     print(compute(13, 45, '*'))
