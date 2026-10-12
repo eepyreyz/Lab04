@@ -24,7 +24,7 @@
 def is_even (anyList):
     """
     # - @function: Checks a list of numbers for atleast one even number.
-    # - @param: A list of integers.
+    # - @param: A list of integers. 
     # - @return: returns a bool value stored in resuts, true if an even number is present, otherwise it returns false.
     """
     for element in anyList:
