@@ -18,6 +18,6 @@ numbers = [2,3,4,5,6,7,8,9,10]
 numbers = list(map(lambda x: x ** 2, numbers))
 print(numbers)
 
-
+divisible_by_2 = []
 divisible_by_2 = list(filter(lambda x: x % 2 == 0, numbers))
 print(divisible_by_2)
